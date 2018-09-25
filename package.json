@@ -8,10 +8,12 @@
     "deploy": "gh-pages -d dist"
   },
   "author": "Mike Hatch",
-  "license": "MIT",  
+  "license": "MIT",
   "homepage": "https://mikeshatch.github.io/portfolio",
   "dependencies": {
+    "build": "ncp css/ dist/css/ && ncp js/ dist/js/",
     "gh-pages": "^1.2.0",
+    "ncp": "^2.0.0",
     "node-sass": "^4.9.2"
   }
 }
