@@ -9,7 +9,7 @@
     width: 28px;
     height: 3px;
     margin: 0 0 5px 0;
-    background: #fff;
+    background: #0B0B12;
     transition: all 0.5s ease-out; }
   .menu-btn.close {
     transform: rotate(180deg); }
@@ -40,14 +40,14 @@
   .menu-nav {
     margin: 0;
     padding: 0;
-    background: #373737;
+    background: #3284aa;
     list-style: none;
     transform: translate3d(0, -100%, 0);
     transition: all 0.5s ease-out; }
     .menu-nav.show {
       transform: translate3d(0, 0, 0); }
   .menu-branding {
-    background: #444;
+    background: #3893BE;
     transform: translate3d(0, 100%, 0);
     transition: all 0.5s ease-out; }
     .menu-branding.show {
@@ -57,14 +57,14 @@
       height: 250px;
       background: url("../img/headshot.jpg");
       border-radius: 50%;
-      border: solid 3px #f4e242; }
+      border: solid 3px #FBBC01; }
   .menu .nav-item {
     transform: translate3d(600px, 0, 0);
     transition: all 0.5s ease-out; }
     .menu .nav-item.show {
       transform: translate3d(0, 0, 0); }
     .menu .nav-item.current > a {
-      color: #f4e242; }
+      color: #FBBC01; }
   .menu .nav-link {
     display: inline-block;
     position: relative;
@@ -72,11 +72,11 @@
     text-transform: uppercase;
     padding: 1rem 0;
     font-weight: 300;
-    color: #fff;
+    color: #0B0B12;
     text-decoration: none;
     transition: all 0.5s ease-out; }
     .menu .nav-link:hover {
-      color: #f4e242; }
+      color: #FBBC01; }
 
 .nav-item:nth-child(1) {
   transition-delay: 0.1s; }
@@ -94,8 +94,8 @@
   box-sizing: border-box; }
 
 body {
-  background: #444;
-  color: #fff;
+  background: #3893BE;
+  color: #0B0B12;
   height: 100%;
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -113,7 +113,7 @@ body {
       width: 100%;
       height: 100%;
       z-index: -1;
-      background: rgba(68, 68, 68, 0.9); }
+      background: rgba(56, 147, 190, 0.9); }
 
 h1,
 h2,
@@ -129,10 +129,10 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(73, 73, 73, 0.5); }
+    background: rgba(59, 153, 197, 0.5); }
 
 a {
-  color: #fff;
+  color: #FAFCFB;
   text-decoration: none; }
 
 header {
@@ -141,7 +141,7 @@ header {
   width: 100%; }
 
 .text-secondary {
-  color: #f4e242; }
+  color: #FBBC01; }
 
 main {
   padding: 4rem;
@@ -151,7 +151,7 @@ main {
     main .icons a {
       padding: 0.4rem; }
       main .icons a:hover {
-        color: #f4e242;
+        color: #FBBC01;
         transition: all 0.5s ease-out; }
   main#home {
     overflow: hidden; }
@@ -167,7 +167,7 @@ main {
     grid-area: bioimage;
     margin: auto;
     border-radius: 50%;
-    border: #f4e242 3px solid; }
+    border: #FBBC01 3px solid; }
   .about-info .bio {
     grid-area: bio;
     font-size: 1.5rem; }
@@ -178,9 +178,9 @@ main {
   .about-info .job-3 {
     grid-area: job3; }
   .about-info .job {
-    background: #515151;
+    background: #479fc9;
     padding: 0.5rem;
-    border-bottom: #f4e242 5px solid; }
+    border-bottom: #FBBC01 5px solid; }
 
 .projects {
   display: grid;
@@ -188,10 +188,10 @@ main {
   grid-template-columns: repeat(3, 1fr); }
   .projects img {
     width: 100%;
-    border: 3px #fff solid; }
+    border: 3px #FAFCFB solid; }
     .projects img:hover {
       opacity: 0.5;
-      border-color: #f4e242;
+      border-color: #FBBC01;
       transition: all 0.5s ease-out; }
   .projects i {
     padding-right: 0.4rem; }
@@ -202,7 +202,7 @@ main {
   justify-content: space-evenly; }
   .contact-box .iframe-style:hover {
     border: 3px solid;
-    border-color: #f4e242;
+    border-color: #FBBC01;
     transition: all 0.5s ease-out; }
 
 .btn, .btn-dark, .btn-light {
@@ -211,22 +211,22 @@ main {
   border: 0;
   margin-bottom: 0.3rem; }
   .btn:hover, .btn-dark:hover, .btn-light:hover {
-    background: #f4e242;
-    color: #000; }
+    background: #FBBC01;
+    color: #0B0B12; }
 
 .btn-dark {
   background: black;
-  color: #fff; }
+  color: #FAFCFB; }
 
 .btn-light {
-  background: #c4c4c4;
+  background: #f8fbfd;
   color: #333; }
 
 #main-footer {
   text-align: center;
   padding: 1rem;
-  background: #2b2b2b;
-  color: #fff;
+  background: #2c7597;
+  color: #0B0B12;
   height: 60px; }
 
 @media screen and (min-width: 1171px) {

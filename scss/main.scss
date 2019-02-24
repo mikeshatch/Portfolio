@@ -34,7 +34,7 @@ h3 {
 }
 
 a {
-  color: #fff;
+  color: #FAFCFB;
   text-decoration: none;
 }
 
@@ -121,7 +121,7 @@ main {
 
   img {
     width: 100%;
-    border: 3px #fff solid;
+    border: 3px #FAFCFB solid;
 
     &:hover {
       opacity: 0.5;
@@ -164,7 +164,7 @@ main {
 .btn-dark {
   @extend .btn;
   background: darken($primary-color, 50);
-  color: #fff;
+  color: #FAFCFB;
 }
 
 .btn-light {
