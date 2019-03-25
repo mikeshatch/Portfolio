@@ -22,10 +22,17 @@ h3 {
   margin: 0;
   font-weight: 400;
 
+  &.lg-heading-index .text-secondary-index,
+  &.sm-heading-index .text-secondary-index {       
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-align: right;
+    text-orientation: sideways;
+  }
+
   &.lg-heading {
     font-size: 6rem;
   }
-
   &.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
@@ -46,6 +53,10 @@ header {
 
 .text-secondary {
   color: $secondary-color;
+}
+
+.text-tertiary {
+  color: $tertiary-color;
 }
 
 main {
@@ -177,7 +188,7 @@ main {
   text-align: center;
   padding: 1rem;
   background: darken($primary-color, 10);
-  color: set-text-color($secondary-color);
+  color: $secondary-color;
   height: 60px;
 }
 
