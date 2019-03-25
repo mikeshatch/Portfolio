@@ -120,6 +120,16 @@ h2,
 h3 {
   margin: 0;
   font-weight: 400; }
+  h1.lg-heading-index .text-secondary-index,
+  h1.sm-heading-index .text-secondary-index,
+  h2.lg-heading-index .text-secondary-index,
+  h2.sm-heading-index .text-secondary-index,
+  h3.lg-heading-index .text-secondary-index,
+  h3.sm-heading-index .text-secondary-index {
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    text-align: right;
+    text-orientation: sideways; }
   h1.lg-heading,
   h2.lg-heading,
   h3.lg-heading {
@@ -142,6 +152,9 @@ header {
 
 .text-secondary {
   color: #FBBC01; }
+
+.text-tertiary {
+  color: #ee4c37; }
 
 main {
   padding: 4rem;
@@ -226,7 +239,7 @@ main {
   text-align: center;
   padding: 1rem;
   background: #2c7597;
-  color: #0B0B12;
+  color: #FBBC01;
   height: 60px; }
 
 @media screen and (min-width: 1171px) {
