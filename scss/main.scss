@@ -3,6 +3,8 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -32,6 +34,7 @@ h3 {
 
   &.lg-heading {
     font-size: 6rem;
+    margin-top: 1.3rem;
   }
   &.sm-heading {
     margin-bottom: 2rem;
@@ -43,6 +46,9 @@ h3 {
 a {
   color: #FAFCFB;
   text-decoration: none;
+}
+a:hover {
+  color: $secondary-color;
 }
 
 header {
@@ -60,8 +66,7 @@ header {
 }
 
 main {
-  padding: 4rem;
-  // height: 100%;
+  padding: 4rem;  
   min-height: calc(100vh - 60px);
 
   .icons {
@@ -76,7 +81,7 @@ main {
       }
     }
   }
-
+  
   &#home {
     overflow: hidden;
     h1 {
@@ -85,25 +90,10 @@ main {
   }
 }
 
-.about-info {
-  display: grid;
-  grid-gap: 30px;
-  grid-template-areas:
-    'bioimage bio bio';
-  grid-template-columns: repeat(3, 1fr);  
-
-  .bio-image {
-    grid-area: bioimage;
-    margin: auto;
-    border-radius: 50%;
-    border: $secondary-color 3px solid;
-  }
-
   .bio {
-    grid-area: bio;
     font-size: 1.5rem;
+    width: 1fr;
   }
-}
 
 // Work/Projects
 .projects {
