@@ -109,9 +109,14 @@ main {
     main#home h1 {
       margin-top: 20vh; }
 
-.bio {
+.about-info {
   font-size: 1.5rem;
-  width: 1fr; }
+  margin-bottom: 5px; }
+
+.about-info p {
+  width: 90%;
+  max-width: 900px;
+  padding-top: 1em; }
 
 .projects {
   display: grid;
@@ -162,11 +167,19 @@ main {
 
 @media screen and (min-width: 1171px) {
   .projects {
-    grid-template-columns: repeat(4, 1fr); } }
+    grid-template-columns: repeat(4, 1fr); }
+  .about-info img {
+    float: left;
+    padding-right: 1em;
+    shape-outside: circle(); } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
   .projects {
-    grid-template-columns: repeat(3, 1fr); } }
+    grid-template-columns: repeat(3, 1fr); }
+  .about-info img {
+    float: left;
+    padding-right: 4.6em;
+    shape-outside: circle(); } }
 
 @media screen and (max-width: 768px) {
   main {
@@ -212,9 +225,8 @@ main {
     transition: all 0.5s ease 0.6s; }
   li.fade {
     opacity: 1; }
-  .about-info {
-    grid-template-areas: 'bio';
-    grid-template-columns: 1fr; }
+  .about-info p {
+    width: auto; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
 
@@ -226,5 +238,7 @@ main {
     main .lg-heading {
       margin-top: 3.3rem;
       font-size: 4rem; }
+  .about-info img {
+    width: 200px; }
   .projects {
     grid-template-columns: 1fr; } }

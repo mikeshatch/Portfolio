@@ -3,6 +3,11 @@
   .projects {
     grid-template-columns: repeat(4, 1fr);
   }
+  .about-info img {  
+    float: left;
+    padding-right: 1em;
+    shape-outside: circle();
+  }
 }
 
 // Desktops & Laptops
@@ -10,6 +15,11 @@
   .projects {
     grid-template-columns: repeat(3, 1fr);
   }
+  .about-info img {  
+    float: left;
+    padding-right: 4.6em;
+    shape-outside: circle();
+  }  
 }
 
 // Tablets & Small Laptops
@@ -76,10 +86,8 @@
   }
   
   // About and Projects area
-  .about-info {
-    grid-template-areas:
-      'bio';
-    grid-template-columns: 1fr;
+  .about-info p {
+    width: auto;
   }
 
   .projects {
@@ -99,6 +107,10 @@
       margin-top: 3.3rem;
       font-size: 4rem;
     }
+  }
+  
+  .about-info img {
+    width: 200px;
   }
 
   .projects {
